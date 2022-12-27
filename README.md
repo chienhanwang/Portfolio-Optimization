@@ -18,5 +18,3 @@ Time Series Forecasting部份，我們使用prophet套件來完成，在蒐集�
 ## Black-Litterman Model  
 ![圖片1](https://user-images.githubusercontent.com/117811033/209641593-aaff8abf-80db-4187-be78-cf6502adf15d.png)  
 Black-Litterman Model是一個在Bayes框架下的投資組合配置模型。先透過權重算出預期收益率，並將它當成先驗，然後用先驗收益得出後驗收益，最後用後驗收益率推回理想權重。BL為投資者提供了一個導入"觀點view"的管道，同時將預期收益分散到不同步驟，增加修改的彈性，最後再進行最佳化配置。
-
-
