@@ -18,12 +18,3 @@ Time Series Forecasting部份，我們使用prophet套件來完成，在蒐集�
 ## Black-Litterman Model  
 ![圖片1](https://user-images.githubusercontent.com/117811033/209641593-aaff8abf-80db-4187-be78-cf6502adf15d.png)
 
-```mermaid
-  flowchart  TD;
-      Market&nbspweights/strategic&nbspweights-->Equilibrium/implied&nbspexcepted&nbspreturns;
-      Equilibrium/implied&nbspexcepted&nbspreturns-->Revised&nbspexcepted&nbspreturns;
-      Revised&nbspexcepted&nbspreturns-->Revised&nbspportfolio&nbspweights;
-      Subjective&nbspviews&nbspabout&nbspexpected&nbspreturns-->Degree&nbspof&nbspconfidence&nbspin&nbspsubjective&nbspviews;
-      Degree&nbspof&nbspconfidence&nbspin&nbspsubjective&nbspviews-->Revised&nbspexcepted&nbspreturns;
-      Revised&nbspportfolio&nbspweights-->Market&nbspweights/strategic&nbspweights;
-```
