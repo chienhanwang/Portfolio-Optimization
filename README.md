@@ -16,3 +16,12 @@ Time Series Forecasting部份，我們使用prophet套件來完成，在蒐集�
 ![2303預測結果](https://user-images.githubusercontent.com/117811061/209639053-c7b5f913-ed3d-4e78-b2d8-70c0e5b04fd9.jpg)  
 上方是預測模型跑出的結果，每檔股票都會有一張表跟一張股價的走勢圖。  表中就包含了未來一週的股價，也就是裡面yhat欄位的地方。從圖中則可以得知過去三年與未來一週的股價走勢，圈起來的地方就是預測的結果。
 ## Black-Litterman Model
+```mermaid
+  flowchart  TD;
+      Market&nbspweights/strategic&nbspweights-->Equilibrium/implied&nbspexcepted&nbspreturns;
+      Equilibrium/implied&nbspexcepted&nbspreturns-->Revised&nbspexcepted&nbspreturns;
+      Revised&nbspexcepted&nbspreturns-->Revised&nbspportfolio&nbspweights;
+      Subjective&nbspviews&nbspabout&nbspexpected&nbspreturns-->Degree&nbspof&nbspconfidence&nbspin&nbspsubjective&nbspviews;
+      Degree&nbspof&nbspconfidence&nbspin&nbspsubjective&nbspviews-->Revised&nbspexcepted&nbspreturns;
+      Revised&nbspportfolio&nbspweights-->Market&nbspweights/strategic&nbspweights;
+```
