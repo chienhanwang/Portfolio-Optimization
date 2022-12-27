@@ -1,4 +1,4 @@
-# Portfolio-Optimization
+# Portfolio Optimization
 ```mermaid
   flowchart  TD;
       Collect&nbsphistorical&nbspstock&nbspprice-->Time&nbspseries&nbspforecasting&nbspwith&nbspProphet;
@@ -8,6 +8,6 @@
       Draw&nbspthe&nbspefficiency&nbspfront&nbspcurve&nbspaccording&nbspto&nbspER&nbspand&nbspp-->Scenario&nbspanalysis;
       Scenario&nbspanalysis-->Get&nbspthe&nbspbest&nbspportfolio;
 ```
-## Time-Series-Forecasting
+## Time Series Forecasting
 
-## Black-Litterman-Model
+## Black-Litterman Model
