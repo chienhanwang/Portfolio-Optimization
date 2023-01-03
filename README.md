@@ -19,5 +19,5 @@ Time Series Forecasting部份，我們使用prophet套件來完成，在蒐集�
 ## Black-Litterman Model  
 ![BL流程圖](https://user-images.githubusercontent.com/117811061/210308446-0345c1ba-98b3-4f87-9010-a4936f35f101.jpg)  
 Black-Litterman Model是一個在Bayes框架下的投資組合配置模型。首先透過權重算出預期收益率，並將它當成先驗，然後用先驗收益得出後驗收益，最後用後驗收益率推回理想權重。BL為投資者提供了一個導入"觀點view"的管道，同時將預期收益分散到不同步驟，增加修改的彈性，最後再進行最佳化配置。  
-![BL結果](https://user-images.githubusercontent.com/117811061/210308792-e16c1b7e-9460-493d-9211-df1ce4a55825.jpg)
+![BL結果](https://user-images.githubusercontent.com/117811061/210308792-e16c1b7e-9460-493d-9211-df1ce4a55825.jpg)  
 上圖是投資組合最佳化模型得出的效率前緣圖，x軸代表波動率(風險)，y軸代表預期收益，圖中的每個點都代表一個投資組合，根據點的顏色也可以看出每個投資組合的夏普值，顏色越淺夏普值越高。  在這50個點中，第50個點即是最佳投資組合，收益為0.0223、波動率為0.0637、夏普值為0.2794。
