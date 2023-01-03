@@ -16,5 +16,5 @@ Time Series Forecasting部份，我們使用prophet套件來完成，在蒐集�
 ![2303預測結果](https://user-images.githubusercontent.com/117811061/209666273-3d6ad45b-3d02-42f7-968c-635192f7dde1.jpg)  
 上方是預測模型跑出的結果，每檔股票都會有一張表跟一張股價的走勢圖。  表中就包含了未來一週的股價，也就是裡面yhat欄位的地方。從圖中則可以得知過去三年與未來一週的股價走勢，圈起來的地方就是預測的結果。
 ## Black-Litterman Model  
-![BL流程圖](https://user-images.githubusercontent.com/117811061/210308446-0345c1ba-98b3-4f87-9010-a4936f35f101.jpg)
+![BL流程圖](https://user-images.githubusercontent.com/117811061/210308446-0345c1ba-98b3-4f87-9010-a4936f35f101.jpg)  
 Black-Litterman Model是一個在Bayes框架下的投資組合配置模型。先透過權重算出預期收益率，並將它當成先驗，然後用先驗收益得出後驗收益，最後用後驗收益率推回理想權重。BL為投資者提供了一個導入"觀點view"的管道，同時將預期收益分散到不同步驟，增加修改的彈性，最後再進行最佳化配置。
